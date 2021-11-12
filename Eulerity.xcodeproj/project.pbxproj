@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831F88C2273CBB3B00B8DE97 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88C1273CBB3B00B8DE97 /* UIViewController+alert.swift */; };
+		831F88C4273CC4F700B8DE97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88C3273CC4F700B8DE97 /* DetailViewController.swift */; };
+		831F88C8273D877800B8DE97 /* UIImage+filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88C7273D877800B8DE97 /* UIImage+filter.swift */; };
+		831F88CC273D990400B8DE97 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88CB273D990400B8DE97 /* Url.swift */; };
+		831F88CE273DBEA900B8DE97 /* String+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88CD273DBEA900B8DE97 /* String+url.swift */; };
+		831F88D3273DF1D900B8DE97 /* String+data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88D2273DF1D900B8DE97 /* String+data.swift */; };
+		831F88D5273E0F2D00B8DE97 /* UIViewController+keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88D4273E0F2D00B8DE97 /* UIViewController+keyboard.swift */; };
+		831F88D7273E2A1600B8DE97 /* OverlayTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88D6273E2A1600B8DE97 /* OverlayTextView.swift */; };
+		831F88DA273E36F400B8DE97 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F88D9273E36F300B8DE97 /* ImageCache.swift */; };
 		83BF9EE5273C421E0050A798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9EE4273C421E0050A798 /* AppDelegate.swift */; };
 		83BF9EE7273C421E0050A798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9EE6273C421E0050A798 /* SceneDelegate.swift */; };
-		83BF9EE9273C421E0050A798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9EE8273C421E0050A798 /* ViewController.swift */; };
-		83BF9EEC273C421E0050A798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF9EEA273C421E0050A798 /* Main.storyboard */; };
 		83BF9EEE273C42200050A798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BF9EED273C42200050A798 /* Assets.xcassets */; };
 		83BF9EF1273C42200050A798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF9EEF273C42200050A798 /* LaunchScreen.storyboard */; };
+		83BF9EFC273C456D0050A798 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9EFB273C456D0050A798 /* HomeViewController.swift */; };
+		83BF9EFE273C47450050A798 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9EFD273C47450050A798 /* Image.swift */; };
+		83BF9F02273C5A5E0050A798 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9F01273C5A5E0050A798 /* NetworkError.swift */; };
+		83BF9F05273C66AB0050A798 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9F04273C66AB0050A798 /* ImageCollectionViewCell.swift */; };
+		83BF9F07273CB0660050A798 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF9F06273CB0660050A798 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		831F88C1273CBB3B00B8DE97 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		831F88C3273CC4F700B8DE97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		831F88C7273D877800B8DE97 /* UIImage+filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+filter.swift"; sourceTree = "<group>"; };
+		831F88CB273D990400B8DE97 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		831F88CD273DBEA900B8DE97 /* String+url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+url.swift"; sourceTree = "<group>"; };
+		831F88D2273DF1D900B8DE97 /* String+data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+data.swift"; sourceTree = "<group>"; };
+		831F88D4273E0F2D00B8DE97 /* UIViewController+keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+keyboard.swift"; sourceTree = "<group>"; };
+		831F88D6273E2A1600B8DE97 /* OverlayTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayTextView.swift; sourceTree = "<group>"; };
+		831F88D9273E36F300B8DE97 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		83BF9EE1273C421E0050A798 /* Eulerity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eulerity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BF9EE4273C421E0050A798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83BF9EE6273C421E0050A798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83BF9EE8273C421E0050A798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83BF9EEB273C421E0050A798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83BF9EED273C42200050A798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BF9EF0273C42200050A798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83BF9EF2273C42200050A798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BF9EFB273C456D0050A798 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83BF9EFD273C47450050A798 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		83BF9F01273C5A5E0050A798 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		83BF9F04273C66AB0050A798 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		83BF9F06273CB0660050A798 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831F88C0273CBB1C00B8DE97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				831F88C1273CBB3B00B8DE97 /* UIViewController+alert.swift */,
+				831F88D4273E0F2D00B8DE97 /* UIViewController+keyboard.swift */,
+				831F88C7273D877800B8DE97 /* UIImage+filter.swift */,
+				831F88CD273DBEA900B8DE97 /* String+url.swift */,
+				831F88D2273DF1D900B8DE97 /* String+data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		831F88D8273E36E100B8DE97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				831F88D9273E36F300B8DE97 /* ImageCache.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		83BF9ED8273C421E0050A798 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +100,55 @@
 		83BF9EE3273C421E0050A798 /* Eulerity */ = {
 			isa = PBXGroup;
 			children = (
+				83BF9EF8273C45280050A798 /* Model */,
+				83BF9EFA273C453E0050A798 /* View */,
+				83BF9EF9273C452F0050A798 /* Controllers */,
+				831F88C0273CBB1C00B8DE97 /* Extensions */,
+				831F88D8273E36E100B8DE97 /* Helper */,
 				83BF9EE4273C421E0050A798 /* AppDelegate.swift */,
 				83BF9EE6273C421E0050A798 /* SceneDelegate.swift */,
-				83BF9EE8273C421E0050A798 /* ViewController.swift */,
-				83BF9EEA273C421E0050A798 /* Main.storyboard */,
 				83BF9EED273C42200050A798 /* Assets.xcassets */,
 				83BF9EEF273C42200050A798 /* LaunchScreen.storyboard */,
 				83BF9EF2273C42200050A798 /* Info.plist */,
 			);
 			path = Eulerity;
+			sourceTree = "<group>";
+		};
+		83BF9EF8273C45280050A798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				831F88CB273D990400B8DE97 /* Url.swift */,
+				83BF9EFD273C47450050A798 /* Image.swift */,
+				83BF9F06273CB0660050A798 /* NetworkManager.swift */,
+				83BF9F01273C5A5E0050A798 /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83BF9EF9273C452F0050A798 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83BF9EFB273C456D0050A798 /* HomeViewController.swift */,
+				831F88C3273CC4F700B8DE97 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83BF9EFA273C453E0050A798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				831F88D6273E2A1600B8DE97 /* OverlayTextView.swift */,
+				83BF9F03273C668F0050A798 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83BF9F03273C668F0050A798 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				83BF9F04273C66AB0050A798 /* ImageCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,8 @@
 			dependencies = (
 			);
 			name = Eulerity;
+			packageProductDependencies = (
+			);
 			productName = Eulerity;
 			productReference = 83BF9EE1273C421E0050A798 /* Eulerity.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,8 @@
 				Base,
 			);
 			mainGroup = 83BF9ED8273C421E0050A798;
+			packageReferences = (
+			);
 			productRefGroup = 83BF9EE2273C421E0050A798 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +215,6 @@
 			files = (
 				83BF9EF1273C42200050A798 /* LaunchScreen.storyboard in Resources */,
 				83BF9EEE273C42200050A798 /* Assets.xcassets in Resources */,
-				83BF9EEC273C421E0050A798 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BF9EE9273C421E0050A798 /* ViewController.swift in Sources */,
+				831F88C4273CC4F700B8DE97 /* DetailViewController.swift in Sources */,
 				83BF9EE5273C421E0050A798 /* AppDelegate.swift in Sources */,
+				831F88DA273E36F400B8DE97 /* ImageCache.swift in Sources */,
+				831F88D7273E2A1600B8DE97 /* OverlayTextView.swift in Sources */,
 				83BF9EE7273C421E0050A798 /* SceneDelegate.swift in Sources */,
+				831F88C8273D877800B8DE97 /* UIImage+filter.swift in Sources */,
+				831F88CE273DBEA900B8DE97 /* String+url.swift in Sources */,
+				831F88D3273DF1D900B8DE97 /* String+data.swift in Sources */,
+				83BF9F05273C66AB0050A798 /* ImageCollectionViewCell.swift in Sources */,
+				83BF9F07273CB0660050A798 /* NetworkManager.swift in Sources */,
+				83BF9F02273C5A5E0050A798 /* NetworkError.swift in Sources */,
+				831F88D5273E0F2D00B8DE97 /* UIViewController+keyboard.swift in Sources */,
+				83BF9EFC273C456D0050A798 /* HomeViewController.swift in Sources */,
+				831F88CC273D990400B8DE97 /* Url.swift in Sources */,
+				83BF9EFE273C47450050A798 /* Image.swift in Sources */,
+				831F88C2273CBB3B00B8DE97 /* UIViewController+alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83BF9EEA273C421E0050A798 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83BF9EEB273C421E0050A798 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83BF9EEF273C42200050A798 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +384,10 @@
 				DEVELOPMENT_TEAM = WVUX7X2RG6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eulerity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Eulerity;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +413,10 @@
 				DEVELOPMENT_TEAM = WVUX7X2RG6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eulerity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Eulerity;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
