@@ -5,7 +5,6 @@
 //  Created by Chris Park on 11/10/21.
 //
 
-import Alamofire
 import Foundation
 import UIKit
 
